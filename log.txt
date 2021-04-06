@@ -1,13 +1,10 @@
-
-Preyersmuehle in ASR20.Data Cost Units.xlsx has no data
-Indonesia Adjustment in ASR20.Data Cost Units.xlsx has no data
-Preyersmuehle in ASR20.Data Cost Units.xlsx has no data
-Indonesia Adjustment in ASR20.Data Cost Units.xlsx has no data
-Preyersmuehle in ASR20.Data Cost Units.xlsx has no data
-Indonesia Adjustment in ASR20.Data Cost Units.xlsx has no data
-Preyersmuehle in ASR20.Data Cost Units.xlsx has no data
-Indonesia Adjustment in ASR20.Data Cost Units.xlsx has no data
-Preyersmuehle in ASR20.Data Cost Units.xlsx has no data
-Indonesia Adjustment in ASR20.Data Cost Units.xlsx has no data
-Preyersmuehle in ASR20.Data Cost Units.xlsx has no data
-Indonesia Adjustment in ASR20.Data Cost Units.xlsx has no data
+Processing 'ASR20.Data Cost Units.xlsx' on April 06,2021 at 19:10:48 ...
+'Preyersmuehle' in 'ASR20.Data Cost Units.xlsx' have no data
+'Indonesia Adjustment' in 'ASR20.Data Cost Units.xlsx' have no data
+'Preyersmuehle' in 'ASR20.Data Cost Units.xlsx' have no data
+'Indonesia Adjustment' in 'ASR20.Data Cost Units.xlsx' have no data
+'Preyersmuehle' in 'ASR20.Data Cost Units.xlsx' have no data
+'Indonesia Adjustment' in 'ASR20.Data Cost Units.xlsx' have no data
+Total number of assets :69.
+Number of assets which have data :63.
+Number of assets which have no data :6.
