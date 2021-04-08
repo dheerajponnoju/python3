@@ -1,4 +1,4 @@
-Processing 'ASR20.Data Cost Units.xlsx' on April 06,2021 at 19:27:50 ...
+Processing 'ASR20.Data Cost Units.xlsx' on April 08,2021 at 06:16:25 ...
 'Preyersmuehle' in 'ASR20.Data Cost Units.xlsx' have no data
 'Indonesia Adjustment' in 'ASR20.Data Cost Units.xlsx' have no data
 'Preyersmuehle' in 'ASR20.Data Cost Units.xlsx' have no data
@@ -8,3 +8,21 @@ Processing 'ASR20.Data Cost Units.xlsx' on April 06,2021 at 19:27:50 ...
 Total number of assets :69.
 Number of assets which have data :63.
 Number of assets which have no data :6.
+Processing 'ASR20.Data CR.xlsx' on April 08,2021 at 06:16:42 ...
+Total number of assets :260.
+Number of assets which have data :260.
+Number of assets which have no data :0.
+Processing 'ASR20.Data RES.xlsx' on April 08,2021 at 06:17:09 ...
+'Ashrafi Reserves' in 'ASR20.Data RES.xlsx' have no data
+'Huemmling Reserves' in 'ASR20.Data RES.xlsx' have no data
+'F16-A Reserves' in 'ASR20.Data RES.xlsx' have no data
+'Gudrun Reserves' in 'ASR20.Data RES.xlsx' have no data
+'Ashrafi Reserves' in 'ASR20.Data RES.xlsx' have no data
+'Huemmling Reserves' in 'ASR20.Data RES.xlsx' have no data
+'F16-A Reserves' in 'ASR20.Data RES.xlsx' have no data
+'Ashrafi Reserves' in 'ASR20.Data RES.xlsx' have no data
+'Huemmling Reserves' in 'ASR20.Data RES.xlsx' have no data
+'F16-A Reserves' in 'ASR20.Data RES.xlsx' have no data
+Total number of assets :302.
+Number of assets which have data :292.
+Number of assets which have no data :10.
