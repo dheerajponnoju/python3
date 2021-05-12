@@ -1,0 +1,10 @@
+dependencies:
+  - matplotlib
+  - xlrd
+  - langdetect
+  - openpyxl
+  - numpy
+  - pip
+  - pip:
+      - julia
+  
