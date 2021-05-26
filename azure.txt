@@ -1,0 +1,37 @@
+difference between synapse and azure sql db?
+where synapse and where sql db?
+difference blob storage and adls gen 2?
+triggers?
+pipeline?
+adf v2?
+get metadata?
+trigger - tumbling window?
+databricks?
+adf linked services with databricks? fields : 
+dataflow's debug cluster is run on databricks cluster.
+parameterization.
+linked services or datasets?
+datawarehousing concepts - SCD(Type-I, Type-II), etc.
+keyvault? permisssions
+Azure AD?
+where adls, where blob storage?
+storage tiers - hot, cool, archive?
+triggers --important?
+dataflow? databricks?
+Normalization, Views, 
+
+3 SQL DB->foreach SQLDB[Lookup, Filter, If, Copy, Dataflow, SP]ADF(Copy Data Activity)->ADLS(parquet)->Dataflow(Transformations - LTRIM, RTRIM, CONCATENATE timestamp)->Databricks(Permanent Tables using PySpark - Spark SQL engine=Delta/parquet)->Views(Databricks)->Fact & Dimension table->ADLS(parquet)
+
+ADF->Databricks->ADF(Master pipeline(3) - Execution pipeline--call 1 pipeline)->Databricks.
+
+SCD-I, SCD-II
+
+SCD - I : No History Data. Insert, Update (Upsert)
+
+SCD - II : Long History Data. (StartD, EndD, Flagged.)
+
+SCD - III : Short History Data.
+
+Types of Fact tables, etc.
+
+Surrogate Key, Candidate Key, Unique Key, Natural Key,
