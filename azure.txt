@@ -34,4 +34,4 @@ SCD - III : Short History Data.
 
 Types of Fact tables, etc.
 
-Surrogate Key, Candidate Key, Unique Key, Natural Key,
+Surrogate Key, Candidate Key, Unique Key, Natural Key, 
