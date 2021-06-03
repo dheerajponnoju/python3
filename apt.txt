@@ -1,2 +1,2 @@
 vim
-oracle-java8-installer
+java
