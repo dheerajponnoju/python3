@@ -1,2 +1,2 @@
 vim
-openjdk
+openjdk-8-jre
