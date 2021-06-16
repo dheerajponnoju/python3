@@ -35,3 +35,7 @@ SCD - III : Short History Data.
 Types of Fact tables, etc.
 
 Surrogate Key, Candidate Key, Unique Key, Natural Key, 
+
+What is Common Table Expressions?
+Window Functions?
+Distribution Key?
