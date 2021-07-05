@@ -1,1 +1,1 @@
-install.packages(c("ggplot2", "ggmap", "osmdata"))
+install.packages(c("ggplot2", "ggmap", "osmdata","iRkernel"))
