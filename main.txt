@@ -1,0 +1,85 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[9]:
+
+
+# importing libraries
+import pandas as pd
+import os
+import json
+from tqdm import tqdm
+
+
+# In[7]:
+
+
+root = 'data/' # directory where I have saved the json dumps
+
+
+# In[2]:
+
+
+# cleaning data file
+file_names = [i for i in os.listdir('data/') if i!='.ipynb_checkpoints']
+
+
+# In[4]:
+
+
+file_names
+
+
+# In[10]:
+
+
+# cleaning the `propertiesType` file
+print(file_names[1])
+file_1 = open(root+file_names[1], "r").read()
+file_1 = json.loads(file_1[3:])
+file_1 = file_1['data']['__schema']['types']
+
+
+# In[20]:
+
+
+# create output directory
+try:
+    os.mkdir('output')
+except FileExistsError:
+    print('Directory already exists')
+
+
+# In[21]:
+
+
+for f in tqdm(file_1):
+    if f['kind']=='OBJECT' or f['kind']=='INTERFACE': # as they have the 'field' properties
+        
+        prop_list = list() # init a list to store all 'field' properties
+        for i in list(f['fields']):
+            new_dict = {} # init a dict for each fields property
+            new_dict['name'] = i['name'] # get the fields 'name'
+            # iterate through the fields 'type'
+            for j in i['type'].keys(): 
+                # open the schema type for eac fields 'type'
+                new_dict['type_'+j] = i['type'][j] 
+            prop_list.append(new_dict)
+        
+        # save them as csvs
+        pd.DataFrame(prop_list).to_csv('output/'+f['name']+'_fields_table_schema.csv', index=False)
+
+
+# In[25]:
+
+
+# saving master file
+pd.DataFrame(file_1).drop('fields', axis=1).to_csv('output/'+'MASTER_table_schema_MASTER.csv', index=False)
+
+
+# In[ ]:
+
+
+
+
+
